@@ -1,80 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>rettahuerta // matrix</title>
-  <style>
-    body {
-      background-color: #0d1117; /* Deep terminal black */
-      color: #c9d1d9; /* Clean crisp text */
-      max-width: 650px;
-      margin: 80px auto;
-      padding: 0 24px;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.6;
-    }
-    h1 { color: #f0f6fc; font-size: 2.5rem; margin-bottom: 5px; font-weight: 800; letter-spacing: -0.5px; }
-    h3 { color: #8b949e; font-weight: 400; margin-top: 0; font-size: 1.2rem; margin-bottom: 40px; }
-    p { font-size: 1.1rem; color: #b1bac4; }
-    hr { border: 0; border-top: 1px solid #21262d; margin: 40px 0; }
-    
-    /* Sleek link container ecosystem */
-    .links-container { display: flex; flex-direction: column; gap: 16px; margin-top: 30px; }
-    .network-link {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: #161b22;
-      border: 1px solid #30363d;
-      padding: 18px 24px;
-      border-radius: 8px;
-      color: #58a6ff; /* Clean electric blue for links */
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 1.1rem;
-      transition: all 0.2s ease-in-out;
-    }
-    .network-link:hover {
-      background: #21262d;
-      border-color: #8b949e;
-      transform: translateY(-2px);
-    }
-    .platform-tag { font-size: 0.85rem; color: #8b949e; font-weight: normal; text-transform: uppercase; letter-spacing: 1px; }
-    footer { margin-top: 80px; font-size: 0.95rem; color: #8b949e; text-align: center; border-top: 1px solid #21262d; padding-top: 20px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retta Huerta</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            border: 1px solid #30363d;
+            padding: 40px;
+            border-radius: 6px;
+            background-color: #161b22;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        }
+        h1 {
+            color: #58a6ff;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #8b949e;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+        .links a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: 500;
+            border: 1px solid #30363d;
+            padding: 10px 20px;
+            border-radius: 6px;
+            width: 80%;
+            max-width: 300px;
+            background-color: #0d1117;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+        .links a:hover {
+            background-color: #21262d;
+            border-color: #8b949e;
+        }
+    </style>
 </head>
 <body>
 
-  <h1>rettahuerta</h1>
-  <h3>[ Biological Substrate // Pattern Tracking Station ]</h3>
-
-  <p>A 19-year digital archive charting the intersection of cultural structures, hard science frameworks, and macro-metaphysics systems.</p>
-
-  <hr>
-
-  <div class="links-container">
-    <a href="https://instagram.com" target="_blank" class="network-link">
-      <span>Instagram</span>
-      <span class="platform-tag">2012 Legacy Hub</span>
-    </a>
-    <a href="https://youtube.com" target="_blank" class="network-link">
-      <span>YouTube Channel</span>
-      <span class="platform-tag">Since 2009</span>
-    </a>
-    <a href="https://tiktok.com" target="_blank" class="network-link">
-      <span>TikTok Portal</span>
-      <span class="platform-tag">Active Streams</span>
-    </a>
-    <a href="https://pinterest.com" target="_blank" class="network-link">
-      <span>Pinterest Archive</span>
-      <span class="platform-tag">Invite-Only Beta</span>
-    </a>
-  </div>
-
-  <footer>
-    All systems encrypted. Verified instance.
-  </footer>
+<div class="container">
+    <h1>Retta Huerta</h1>
+    <div class="subtitle">Data & Patterns</div>
+    <p>Central identity node. Processing systemic structures across culture, physics, and metaphysics.</p>
+    
+    <div class="links">
+        <a href="https://currentinstance.com">Current Instance (Book Project)</a>
+        <a href="https://github.com" target="_blank">GitHub Profile</a>
+    </div>
+</div>
 
 </body>
 </html>
