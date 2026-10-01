@@ -4,7 +4,7 @@
 ---
 
 ## Welcome to the Network
-This domain serves as the primary tracking hub for the local agency known across the web as **rettahuerta** (and navigating the terrain under **RitaCail**). 
+This domain serves as the primary tracking hub for the local agency known across the web as **rettahuerta** (and navigating the terrain under **RettaHuerta**). 
 
 The space of all physically available next states already exists. This instance is simply the local process selecting which branch becomes active. 
 
