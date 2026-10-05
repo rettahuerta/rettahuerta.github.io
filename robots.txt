@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rettahuerta.github.io/sitemap.xml
